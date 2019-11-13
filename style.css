@@ -1,0 +1,191 @@
+html, 
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: bisque;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.row{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    border-bottom:  2px solid rgb(74, 8, 100);
+
+}
+header .row{
+    display: flex;
+    align-items: center;
+
+}
+header .logo{
+    width: 50px;
+    margin-right: 10px;
+}
+header .logo img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+header .brand{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+header nav ul a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+header nav ul a:hover{
+    background: rgb(74, 8, 100);
+    color: aliceblue;
+}
+header .social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+
+}
+header .social{
+    margin-left: auto;
+
+}
+header .social ul li{
+    margin-left: 10px;
+
+}
+header .social ul li a{
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+.fon{
+    background: rgb(224, 35, 130);
+    width: 400px;
+   
+}
+.dvij{margin-left: 300px;}
+.kontent ul{
+    display: flex;
+}
+.obcee{
+    display: flex;
+}
+ .redakcia a img {
+ width: 350px;
+height: 270px;
+margin-top: 10px ;
+margin-left: 25px;
+
+}
+
+.oglavlenie{
+    font-size: 20px;
+    margin-top: 50px ;
+    margin-left: 25px;
+
+}
+.nasvanie{
+font-size: 20px;
+margin-top: 5px ;
+margin-left: 30px;
+}
+.redakcia2 a img {
+    width: 350px;
+   height: 270px;
+   margin-top: 10px ;
+   margin-left: 25px;
+   
+   }
+   .fon2{
+       background: rgb(224, 35, 130);
+       width: 400px;
+       margin-left: 10px;
+      
+   }
+   .oglavlenie2{
+       font-size: 20px;
+       margin-top: 50px ;
+   
+   }
+   .nasvanie2{
+   font-size: 20px;
+   margin-top: 5px ;
+   margin-left: 35px;
+   }
+   .redakcia3 a img {
+    width: 350px;
+   height: 270px;
+   margin-top: 10px ;
+   margin-left: 25px;
+   
+   }
+   .fon2{
+       background: rgb(224, 35, 130);
+       width: 400px;
+       margin-left: 10px;
+      
+   }
+   .oglavlenie3{
+       font-size: 20px;
+       margin-top: 50px ;
+   
+   }
+   .nasvanie3{
+   font-size: 20px;
+   margin-top: 5px ;
+   margin-left: 35px;
+   }
+footer{
+
+margin-top: auto;
+border-top:  2px solid rgb(74, 8, 100);
+
+}
+footer .row{
+    display: flex;  
+}
+footer .logo-foorte img{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+footer .title{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:rgb(38, 0, 255);
+}
+footer .social-footer ul li{
+    list-style: none;
+    margin-left: 10px;
+    
+   
+}
+footer .social-footer ul {
+display: flex;
+
+}
+footer .social-footer ul li a{
+    color: rgb(38, 0, 255);
+}
+
