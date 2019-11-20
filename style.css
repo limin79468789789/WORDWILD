@@ -3,19 +3,19 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background: bisque;
+    background-image: url(http://4.bp.blogspot.com/-hkoXszFNs6w/Twx_gwn6i0I/AAAAAAAAGRM/3cdA8hS5-8I/w1200-h630-p-k-no-nu/%25D1%2584%25D0%25BE%25D0%25BD-%25D1%2581%25D0%25B5%25D1%2580%25D0%25B4%25D1%2586%25D0%25B0.png)
 }
 body{
     display: flex;
     flex-direction: column;
-
-
+    
 }
 .row{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
+/*шапка*/
 header{
     border-bottom:  2px solid rgb(74, 8, 100);
 
@@ -52,10 +52,10 @@ header nav ul a{
     display: block;
     padding: 5px 10px;
     text-decoration: none;
-    color: rgb(38, 0, 255);
+    color: rgb(0, 0, 0);
 }
 header nav ul a:hover{
-    background: rgb(74, 8, 100);
+    background: rgb(71, 11, 31);
     color: aliceblue;
 }
 header .social ul{
@@ -76,20 +76,25 @@ header .social ul li{
 }
 header .social ul li a{
     text-decoration: none;
-    color: rgb(38, 0, 255);
+    color: rgb(0, 0, 0);
 }
+/*контент,редакция,1 ряд */
+.obcee{
+    display: flex;
+}
+/*контент,редакция,1 ряд 1 столбик*/
 .fon{
-    background: rgb(224, 35, 130);
+    background: rgb(255, 125, 132);
     width: 400px;
    
 }
 .dvij{margin-left: 300px;}
 .kontent ul{
     display: flex;
-}
-.obcee{
+}.obcee{
     display: flex;
 }
+
  .redakcia a img {
  width: 350px;
 height: 270px;
@@ -116,8 +121,9 @@ margin-left: 30px;
    margin-left: 25px;
    
    }
+   /*контент,редакция,1 ряд 2 столбик*/
    .fon2{
-       background: rgb(224, 35, 130);
+       background: rgb(255, 125, 132);
        width: 400px;
        margin-left: 10px;
       
@@ -132,6 +138,11 @@ margin-left: 30px;
    margin-top: 5px ;
    margin-left: 35px;
    }
+   /*контент,редакция,2 ряд */
+   .obcee2{
+    display: flex;
+}
+/*контент,редакция,2 ряд 1 столбик*/
    .redakcia3 a img {
     width: 350px;
    height: 270px;
@@ -140,9 +151,9 @@ margin-left: 30px;
    
    }
    .fon3{
-       background: rgb(224, 35, 130);
+       background: rgb(255, 125, 132);
        width: 400px;
-       margin-left: 10px;
+       margin-left: 340px;
       
    }
    .oglavlenie3{
@@ -151,6 +162,29 @@ margin-left: 30px;
    
    }
    .nasvanie3{
+   font-size: 20px;
+   margin-top: 5px ;
+   margin-left: 35px;
+   }
+   /*контент,редакция,2 ряд 2 столбик*/
+   .redakcia4 a img {
+    width: 350px;
+   height: 270px;
+   margin-top: 10px ;
+   margin-left: 25px;
+   
+   }
+   .fon4{
+       background: rgb(255, 125, 132);
+       width: 400px;
+       margin-left: 10px;
+   }
+   .oglavlenie4{
+       font-size: 20px;
+       margin-top: 50px ;
+   
+   }
+   .nasvanie4{
    font-size: 20px;
    margin-top: 5px ;
    margin-left: 35px;
@@ -173,7 +207,7 @@ footer .logo-foorte img{
 footer .title{
     margin-left: 20px;
     margin-top: 20px;
-    color:rgb(38, 0, 255);
+    color:rgb(0, 0, 0);
 }
 footer .social-footer ul li{
     list-style: none;
@@ -186,6 +220,6 @@ display: flex;
 
 }
 footer .social-footer ul li a{
-    color: rgb(38, 0, 255);
+    color: rgb(0, 0, 0);
 }
 
