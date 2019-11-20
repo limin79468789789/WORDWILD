@@ -104,7 +104,7 @@ margin-left: 25px;
 }
 
 .oglavlenie{
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 50px ;
     margin-left: 25px;
 
@@ -188,6 +188,103 @@ margin-left: 30px;
    font-size: 20px;
    margin-top: 5px ;
    margin-left: 35px;
+   }
+   /* раздел звезды*/
+   /* 1 */
+   .redakciainf a img {
+    width: 150px;
+   height: 150px;
+   margin-top: 10px ;
+   margin-left: 25px;
+   
+   }
+   .foninf{
+       background: rgb(255, 125, 132);
+       width: 850px;
+       margin-left: 320px;
+       display: flex;
+   }
+   .oglavlenieinf{
+       font-size: 50px;
+       margin-top: 20px ;
+       margin-left: 320px;
+       margin-bottom: 10px ;
+   }
+   .nasvanieinf{
+   font-size: 30px;
+   margin-top: 5px ;
+   margin-left: 20px;
+   }
+   .inf{
+    font-size: 20px;
+    margin-left: 10px;
+   }
+   /* 2 */
+   .redakciainf2 a img {
+    width: 190px;
+   height: 150px;
+   margin-top: 10px ;
+   margin-left: 25px;
+   
+   }
+   .foninf2{
+       background: rgb(255, 125, 132);
+       width: 850px;
+       margin-left: 320px;
+       display: flex;
+       margin-top: 10px;
+   }
+   .oglavlenieinf2{
+       font-size: 50px;
+       margin-top: 20px ;
+       margin-left: 320px;
+       margin-bottom: 10px ;
+   }
+   .nasvanieinf2{
+   font-size: 30px;
+   margin-top: 5px ;
+   margin-left: 20px;
+   }
+   .inf2{
+    font-size: 20px;
+    margin-left: 10px;
+   }
+   /* 3 */
+   .redakciainf3 a img {
+    width: 170px;
+   height: 150px;
+   margin-top: 10px ;
+   margin-left: 25px;
+   
+   }
+   .foninf3{
+       background: rgb(255, 125, 132);
+       width: 850px;
+       margin-left: 320px;
+       display: flex;
+       margin-top: 10px;
+   }
+   .oglavlenieinf3{
+       font-size: 50px;
+       margin-top: 20px ;
+       margin-left: 320px;
+       margin-bottom: 10px ;
+   }
+   .nasvanieinf3{
+   font-size: 30px;
+   margin-top: 5px ;
+   margin-left: 20px;
+   }
+   .inf3{
+    font-size: 20px;
+    margin-left: 10px;
+   } 
+   .dalee{
+    background: rgb(255, 125, 132);
+    width: 110px;
+    margin-left: 620px;
+    margin-top: 10px;
+    font-size: 40px;
    }
 footer{
 
